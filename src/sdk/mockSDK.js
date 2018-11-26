@@ -1,4 +1,4 @@
-const _baseUrl = 'https://jsonplaceholder.typicode.com2/'
+const _baseUrl = 'https://jsonplaceholder.typicode.com/'
 
 const generateRequest = (url) => {
     return fetch(_baseUrl + url)
